@@ -1,0 +1,17 @@
+ 
+        .idea{
+            color: blueviolet;
+            background-color: beige;
+        }
+        h1{
+            background-color: aqua;
+        }
+        p:hover{
+            color: green;
+            background-color:aqumarine;
+        }
+        >static{
+            position;relative;
+            top:30px
+            left:60px;
+        }
