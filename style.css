@@ -10,8 +10,69 @@
             color: green;
             background-color:aqumarine;
         }
-        >static{
-            position;relative;
-            top:30px
+        .static{
+            position:relative;
+            top:30px;
             left:60px;
         }
+        .inline{
+          display:inline;
+        }
+        .flex-container{
+            display:flex;
+            /*flex-direction:row-reverse*/
+            justify-content:space-around;
+            align-items: center;
+            background-color: aqua;
+            height:100vh;
+            
+        }
+        .flex-container div {
+            background-color: rgb(171, 216, 11);
+            border:2px  saddlebrown;
+            height: 100px;
+            width:100px;
+        }
+        .item2{
+            /*flex-grow:2*/
+            flex-shrink: 0;
+        } 
+        .body{
+            margin:0;
+            font-family:arial,Arial, Helvetica, sans-serif
+        }
+         .navbar{ 
+            background-color:aqua;
+            overflow:hidden;
+         }
+         .navbar ul{
+         list-style-type:none;
+         margin:0;
+         padding:0;
+         display:flex;
+         }
+         .grid-container{
+            display:grid;
+            grid-template-rows:100px  100px 100px;
+            grid-template-columns:100px 100px 100px;
+         }
+         .grid-container div{
+            background-color: plum;
+            border:2px solid purple;
+
+         }
+         .item1{
+            grid-column-start: 1;
+            grid-column-end: 5;
+         }
+         .item2{
+             grid-column-start: 1;
+             grid-column-end: 3;
+         }
+         .item3{
+            grid-column-start: 4;
+         }
+         .item4{
+            grid-column-start: 1;
+            grid-column-end: 5;
+         }
